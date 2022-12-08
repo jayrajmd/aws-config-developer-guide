@@ -16,7 +16,7 @@ Custom Lambda rules provide you with the option to use Java or Python to create 
 
 After you activate a rule, AWS Config compares your resources to the conditions of the rule\. There are two evaluation modes for AWS Config rules: **proactive evaluation** and **detective evaluation**\.
 
-Use *proactive evaluation* to evaluate resources prior to resource provising\. This allows you to evaluate the configuration settings of your resources before they are created or updated\. Use *detective evluation* to evaluate resources that have already been provisioned\. This allows you to evaluate the configuration settings of your existing resources\.
+Use *proactive evaluation* to evaluate resources prior to resource provisioning\. This allows you to evaluate the configuration settings of your resources before they are created or updated\. Use *detective evaluation* to evaluate resources that have already been provisioned\. This allows you to evaluate the configuration settings of your existing resources\.
 
 For proactive evaluation, there is only one type of trigger:
 + **Configuration changes** – AWS Config initiates the evaluation when there are changes to the configuration of a pre\-provisioned resource\. The evaluation runs after AWS Config sends a configuration item change notification\.
